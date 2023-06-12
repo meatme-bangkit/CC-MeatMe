@@ -18,7 +18,7 @@ This projects have purpose to creating an API that will be consumed by the front
 
 ## Environment Variables
 
-To run this project, you will need to create .env file for storing credentials. Please use an example like [this](https://github.com/guditubagus/CC-MeatMe/blob/master/src-backend-marketplace/.env.example)
+To run this project, you will need to create .env file for storing credentials. Please use an example like [this](https://github.com/meatme-bangkit/CC-MeatMe/blob/main/src-backend-marketplace/.env.example)
 
 Filled in all of those ```key=value```, just set the value
 
@@ -57,7 +57,7 @@ Save this json file to projects folder. **(src-backend-marketplace)**
 ### Installation
 1. Clone this project
 ```
-  git clone https://github.com/guditubagus/CC-MeatMe.git
+  git clone https://github.com/meatme-bangkit/CC-MeatMe.git
 ```
 
 2. For Backend Marketplace
