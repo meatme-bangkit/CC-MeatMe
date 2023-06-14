@@ -131,6 +131,7 @@ router.post("/signin", validateLogin, (req, res, next) => {
         });
         return res.status(200).send({
           message: "Login Success!",
+          email: result[0].email,
           token: token,
         });
       } else {
@@ -388,6 +389,7 @@ router.post("/login", validateLogin, (req, res, next) => {
         });
         return res.status(200).send({
           message: "Login Success!",
+          email: result[0].email,
           token: token,
         });
       } else {
